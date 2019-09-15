@@ -8,6 +8,9 @@ class DemoSpec: QuickSpec {
             it("should run tests") {
                 expect(true).to(beTrue())
             }
+            it("should also run this") {
+                expect(true).to(beTrue())
+            }
         }
     }
 }
